@@ -31,7 +31,7 @@ def image_mars():
                   </head>
                   <body>
                     <h1>Жди нас, Марс!</h1>
-                    <img src="{url_for('static', filename='img/mars.jpg')}" 
+                    <img src="{url_for('static', filename='img/mars.jpeg')}" 
                      alt="здесь должна была быть картинка, но не нашлась">
                      <h2>А это марс!</h2>
                   </body>
@@ -39,4 +39,4 @@ def image_mars():
 
 
 if __name__ == '__main__':
-    app.run(port=8080, host='127.0.0.1')
+    app.run(port=8000, host='127.0.0.1')
